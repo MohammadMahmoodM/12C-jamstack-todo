@@ -14,9 +14,12 @@
     "test": "echo \"Write tests! -> https://gatsby.dev/unit-testing\" && exit 1"
   },
   "dependencies": {
+    "autoprefixer": "^10.4.8",
     "faunadb": "^4.6.0",
     "formik": "^2.2.9",
     "gatsby": "^4.21.1",
+    "gatsby-plugin-postcss": "^5.21.0",
+    "postcss": "^8.4.16",
     "react": "^18.1.0",
     "react-dom": "^18.1.0"
   },
