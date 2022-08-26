@@ -9,7 +9,7 @@
 
 module.exports = {
   mode: "jit",
-  purge: ["./*.html"],
+  content: ["./*.html"],
   darkMode: false, // or 'media' or 'class'
   theme: {
     extend: {},
