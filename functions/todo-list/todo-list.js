@@ -4,7 +4,7 @@ const { query } = faunadb
 // FaunaDB Details
 // Database = todoDB
 // Collection = todos
-// Secret fnAEu6kmGHACUJJkJ70nbWXs83xP9CQDPy5P3uOX
+// Secret fnAEvDNoTcACUY6Ste_2s1gkafLBwPraIavZo2kn
 
 const handler = async event => {
     // Logic
@@ -20,9 +20,9 @@ const handler = async event => {
       console.log(todoBody) // Print
     
       // Fauna
-      const secret = "fnAEu6kmGHACUJJkJ70nbWXs83xP9CQDPy5P3uOX"
+      const secret = "fnAEvDNoTcACUY6Ste_2s1gkafLBwPraIavZo2kn"
       let adminClient = new faunadb.Client({ secret: secret }) // Initialize with secret
-      let collection = "todos"
+      let collection = "Todo"
     
       const result = await adminClient.query(
         // Queries (FQL)
